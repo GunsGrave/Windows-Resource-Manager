@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: myexplorer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP42EF.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/myexplorer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Administrator\Documents\操作系统实验\myexplorer\LeftView.cpp"
+"C:\Users\Administrator\Documents\操作系统实验\myexplorer\myexplorerView.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP42EF.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP42F0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/myexplorer.pdb" /machine:I386 /out:"Release/myexplorer.exe" 
+".\Release\FileOP.obj"
+".\Release\LeftView.obj"
+".\Release\MainFrm.obj"
+".\Release\MultiFile.obj"
+".\Release\myexplorer.obj"
+".\Release\myexplorerDoc.obj"
+".\Release\myexplorerView.obj"
+".\Release\MyInputDlg.obj"
+".\Release\MyInputDlg1.obj"
+".\Release\SearchDlg.obj"
+".\Release\SplitStr.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemImageList.obj"
+".\Release\myexplorer.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP42F0.tmp"
+<h3>Output Window</h3>
+Compiling...
+LeftView.cpp
+myexplorerView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+myexplorer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
